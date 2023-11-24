@@ -50,3 +50,14 @@ it("should summarize all number values in an array", () => {
   expect(result).toBe(expectedResult);
 });
 ```
+
+## Writing Good Tests
+
+- What should and shouldn't be tested
+- Good tests are short and concise
+- Testing & Code improvements work together iteratively
+
+| Should Test                                                                                                                                                                                                                    | Shouldn't Test              |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------- |
+| Only test your code                                                                                                                                                                                                            | Don't test third-party code |
+| e.g. `fetch()` API <br/> - ❌ Don't test if it working as intended <br /> - ❌ Don't test your server-side code implicitly via your client-side code <br /> - ✅ Do your client-side reactions to different responses & errors |                             |
