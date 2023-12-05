@@ -61,3 +61,8 @@ it("should summarize all number values in an array", () => {
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------- |
 | Only test your code                                                                                                                                                                                                            | Don't test third-party code |
 | e.g. `fetch()` API <br/> - ❌ Don't test if it working as intended <br /> - ❌ Don't test your server-side code implicitly via your client-side code <br /> - ✅ Do your client-side reactions to different responses & errors |                             |
+
+## 🦄 Integration Testing
+
+- Testing units with dependancies
+- Balancing unit & integration tests
